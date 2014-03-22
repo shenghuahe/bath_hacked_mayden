@@ -27,7 +27,7 @@ fs.readdirSync(modelsPath).forEach(function (file) {
 });
 
 // Populate empty DB with sample data
-require('./lib/config/dummydata');
+require('./lib/config/data_'+ config.env);
 
 var app = express();
 
