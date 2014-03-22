@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('hackedApp', [
+angular.module('bathhackedApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

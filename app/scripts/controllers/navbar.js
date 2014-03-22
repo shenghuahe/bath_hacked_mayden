@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('hackedApp')
+angular.module('bathhackedApp')
   .controller('NavbarCtrl', function ($scope, $location) {
     $scope.menu = [{
       'title': 'Home',
