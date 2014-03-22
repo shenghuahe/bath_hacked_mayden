@@ -10,3 +10,8 @@ Gruntfile.js
 *.sublime-project
 *.sublime-workspace
 data/mongod.lock
+data/journal/j._0
+data/journal/lsn
+data/local.0
+data/local.ns
+data/fullstack-test.*
