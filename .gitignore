@@ -6,3 +6,7 @@ app/bower_components
 heroku
 /views
 dist
+Gruntfile.js
+*.sublime-project
+*.sublime-workspace
+data/mongod.lock
