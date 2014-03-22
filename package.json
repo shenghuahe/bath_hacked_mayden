@@ -8,7 +8,7 @@
     "ejs": "~0.8.4"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.4",
     "grunt-autoprefixer": "~0.4.0",
     "grunt-bower-install": "~0.7.0",
     "grunt-concurrent": "~0.4.1",
