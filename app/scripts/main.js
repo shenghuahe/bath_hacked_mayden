@@ -65,8 +65,8 @@ function bubbleConfiguration(bubble)
   var coordinates = bubble.getLatLng();
   var count = 0;
 
-  for (var i = 0; i < routes.length; i++) {
-    if (contains(bubble, routes[i])) {
+  for (var i = 0; i < coordinates.length; i++) {
+    if (contains(bubble, coordinates[i])) {
       count++;
     }
   }
@@ -85,8 +85,8 @@ function bubbleConfiguration(bubble)
     bubble.setRadius(this.value);
     count = 0;
 
-    for (var i = 0; i < routes.length; i++) {
-      if (contains(bubble, routes[i])) {
+    for (var i = 0; i < coordinates.length; i++) {
+      if (contains(bubble, coordinates[i])) {
         count++;
       }
     }
@@ -119,6 +119,10 @@ function routeConfiguration(name, route)
   routes.push(route);
   var form = $(new EJS({ url: path }).render(data));
 
+  $(' input[name=follow]', form).click(function () {
+    follow(route.getLatLngs());
+  });
+
   return form[0];
 
   // bubbles.push(bubble);
@@ -144,8 +148,6 @@ function routeConfiguration(name, route)
   // $(' .colours span', form).on('click', function () {
   //   bubble.setStyle({ color: this.className });
   // });
-
-  // return form[0];
 }
 
 $(function () {
@@ -185,3 +187,27 @@ $(function () {
     }
   });
 });
+
+function follow(route) {
+  route = route.slice(0);
+
+  if (route.length == 0) {
+    return;
+  }
+
+  var center = map.getCenter();
+  var zoom = map.getZoom();
+
+  map.setZoom(17);
+
+  var interval = setInterval(function () {
+    if (route.length == 0) {
+      map.setZoom(zoom);
+      map.panTo(center);
+
+      clearInterval(interval);
+    }
+
+    map.panTo(route.shift());
+  }, 500);
+}
