@@ -62,6 +62,10 @@ describe('GET /api/paths/10/10/1500/1500 should return 2 entries', function() {
         if (err) return done(err);
         res.body.should.be.instanceof(Array);
         res.body.should.have.length(2);
+        res.body[0].name.should.equal('Route 1');
+        res.body[0].coordinates.should.be.instanceOf(Array);
+        res.body[1].name.should.equal('Route 2');
+        res.body[1].coordinates.should.be.instanceOf(Array);
         done();
       });
   });
