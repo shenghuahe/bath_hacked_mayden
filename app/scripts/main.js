@@ -17,7 +17,7 @@ var bubbles = [];
 /**
  * Currently shown routes.
  */
-var lines = [];
+var routes = [];
 
 /**
  * Colours from which we randomly select line/circle/marker colours.
@@ -59,27 +59,24 @@ function contains(circle, line) {
 /**
  * Make a configuration bubble.
  */
-function configuration(bubble)
+function bubbleConfiguration(bubble)
 {
-  var path = '/tpl/popup.ejs';
+  var path = '/tpl/bubble.ejs';
   var coordinates = bubble.getLatLng();
   var count = 0;
 
-  for (var i = 0; i < lines.length; i++) {
-    if (contains(bubble, lines[i])) {
+  for (var i = 0; i < routes.length; i++) {
+    if (contains(bubble, routes[i])) {
       count++;
     }
   }
 
   var data = {
-    message: "Hi, mum!",
     id: bubbles.length,
     lat: coordinates.lat,
     lng: coordinates.lng,
     count: count
   };
-
-  var layer = "bubble" + data.id;
 
   bubbles.push(bubble);
   var form = $(new EJS({ url: path }).render(data));
@@ -88,8 +85,8 @@ function configuration(bubble)
     bubble.setRadius(this.value);
     count = 0;
 
-    for (var i = 0; i < lines.length; i++) {
-      if (contains(bubble, lines[i])) {
+    for (var i = 0; i < routes.length; i++) {
+      if (contains(bubble, routes[i])) {
         count++;
       }
     }
@@ -108,12 +105,55 @@ function configuration(bubble)
   return form[0];
 }
 
+/**
+ * Make a configuration bubble.
+ */
+function routeConfiguration(name, route)
+{
+  var path = '/tpl/route.ejs';
+
+  var data = {
+    name: name
+  };
+
+  routes.push(route);
+  var form = $(new EJS({ url: path }).render(data));
+
+  return form[0];
+
+  // bubbles.push(bubble);
+  // var form = $(new EJS({ url: path }).render(data));
+
+  // $(' input[name=radius]', form).change(function () {
+  //   bubble.setRadius(this.value);
+  //   count = 0;
+
+  //   for (var i = 0; i < lines.length; i++) {
+  //     if (contains(bubble, lines[i])) {
+  //       count++;
+  //     }
+  //   }
+
+  //   $(' .route_count', form).text(count);
+  // });
+
+  // $(' input[name=delete]', form).click(function () {
+  //   map.removeLayer(bubble);
+  // });
+
+  // $(' .colours span', form).on('click', function () {
+  //   bubble.setStyle({ color: this.className });
+  // });
+
+  // return form[0];
+}
+
 $(function () {
   map = L.map('map').setView([51.383198, -2.359123], 15);
 
   map.on('click', function (e) {
     var bubble = L.circle(e.latlng, 100, { color: 'red' }).addTo(map);
-    var gui = configuration(bubble);
+    var gui = bubbleConfiguration(bubble);
 
     bubble.bindPopup(gui, {
       minWidth: 400
@@ -129,15 +169,19 @@ $(function () {
     for (i = 0; i < paths.length; i++) {
       var route = [];
 
-      for (n = 0; n < paths[i].length; n++) {
-        route.push([paths[i][n].pos_x, paths[i][n].pos_y]);
+      var name = paths[i].name;
+      var coordinates = paths[i].coordinates;
+
+      for (n = 0; n < coordinates.length; n++) {
+        route.push([coordinates[n].pos_x, coordinates[n].pos_y]);
       }
 
       var line = L.polyline(route, {color: colour()}).addTo(map);
-      lines.push(line);
 
-      line.bindPopup('hello, mum!');
+      line.bindPopup(name);
+      var gui = routeConfiguration(name, line);
+
+      line.bindPopup(gui, { minWidth: 400 });
     }
   });
-
 });
