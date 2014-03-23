@@ -65,8 +65,8 @@ function bubbleConfiguration(bubble)
   var coordinates = bubble.getLatLng();
   var count = 0;
 
-  for (var i = 0; i < coordinates.length; i++) {
-    if (contains(bubble, coordinates[i])) {
+  for (var i = 0; i < routes.length; i++) {
+    if (contains(bubble, routes[i])) {
       count++;
     }
   }
@@ -85,8 +85,8 @@ function bubbleConfiguration(bubble)
     bubble.setRadius(this.value);
     count = 0;
 
-    for (var i = 0; i < coordinates.length; i++) {
-      if (contains(bubble, coordinates[i])) {
+    for (var i = 0; i < routes.length; i++) {
+      if (contains(bubble, routes[i])) {
         count++;
       }
     }
@@ -120,34 +120,14 @@ function routeConfiguration(name, route)
   var form = $(new EJS({ url: path }).render(data));
 
   $(' input[name=follow]', form).click(function () {
-    follow(route.getLatLngs());
+    follow(route);
+  });
+
+  $(' .colours span', form).on('click', function () {
+    route.setStyle({ color: this.className });
   });
 
   return form[0];
-
-  // bubbles.push(bubble);
-  // var form = $(new EJS({ url: path }).render(data));
-
-  // $(' input[name=radius]', form).change(function () {
-  //   bubble.setRadius(this.value);
-  //   count = 0;
-
-  //   for (var i = 0; i < lines.length; i++) {
-  //     if (contains(bubble, lines[i])) {
-  //       count++;
-  //     }
-  //   }
-
-  //   $(' .route_count', form).text(count);
-  // });
-
-  // $(' input[name=delete]', form).click(function () {
-  //   map.removeLayer(bubble);
-  // });
-
-  // $(' .colours span', form).on('click', function () {
-  //   bubble.setStyle({ color: this.className });
-  // });
 }
 
 $(function () {
@@ -188,8 +168,8 @@ $(function () {
   });
 });
 
-function follow(route) {
-  route = route.slice(0);
+function follow(line) {
+  route = line.getLatLngs().slice(0);
 
   if (route.length == 0) {
     return;
@@ -198,14 +178,15 @@ function follow(route) {
   var center = map.getCenter();
   var zoom = map.getZoom();
 
+  line.closePopup();
   map.setZoom(17);
 
   var interval = setInterval(function () {
     if (route.length == 0) {
       map.setZoom(zoom);
-      map.panTo(center);
-
       clearInterval(interval);
+
+      return;
     }
 
     map.panTo(route.shift());
