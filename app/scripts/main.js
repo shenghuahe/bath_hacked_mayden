@@ -158,7 +158,7 @@ $(function () {
         route.push([coordinates[n].pos_x, coordinates[n].pos_y]);
       }
 
-      var line = L.polyline(route, {color: 'blue', opacity: 0.25}).addTo(map);
+      var line = L.polyline(route, {color: colour(), opacity: 0.5}).addTo(map);
 
       line.bindPopup(name);
       var gui = routeConfiguration(name, line);
