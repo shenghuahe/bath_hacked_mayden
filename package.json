@@ -6,7 +6,10 @@
     "lodash": "~2.4.1",
     "mongoose": "~3.8.8",
     "ejs": "~0.8.4",
-    "underscore": "~1.6.*"
+    "underscore": "~1.6.*",
+    "togeojson" : "~0.7.0",
+    "jsdom" : "~0.10.3",
+    "node-uuid" : "1.4.1"
   },
   "devDependencies": {
     "grunt": "~0.4.4",

@@ -89,11 +89,10 @@ describe('GET /api/import-gpx should import the data', function() {
   
   it('should respond with JSON array', function(done) {
     request(app)
-      .get('/api/import-gpx')
+      .get('/api/import-gpx/routes')
       .expect(200)
       .expect('Content-Type', /json/)
       .end(function(err, res) {
-        console.log(res.body);
         if (err) return done(err);
         done();
       });
