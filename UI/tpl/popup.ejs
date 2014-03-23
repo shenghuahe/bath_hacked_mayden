@@ -1,0 +1,35 @@
+<div class="bubble-configure">
+  <h3 contenteditable="true">New bubble</h3>
+  <input type="range" name="radius" value="100" min="1" max="2000" />
+  <hr />
+  <div class="colours">
+    <span class="red"></span>
+    <span class="purple"></span>
+    <span class="green"></span>
+    <span class="blue"></span>
+    <span class="orange"></span>
+    <span class="pink"></span>
+    <span class="yellow"></span>
+    <span class="grey"></span>
+  </div>
+  <hr />
+  <input name="delete" type="submit" value="Delete Bubble" />
+  <hr />
+  <table class="statistics">
+    <tr>
+      <td>Latitude</td>
+      <td><%= Math.round(lat * 1000) / 1000 %></td>
+    </tr>
+    <tr>
+      <td>Longitude</td>
+      <td><%= Math.round(lng * 1000) / 1000 %></td>
+    </tr>
+    <tr height="10">
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Number of routes</td>
+      <td class="route_count"><%= count %></td>
+    </tr>
+</div>

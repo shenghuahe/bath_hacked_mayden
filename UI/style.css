@@ -1,0 +1,74 @@
+html, body {
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#map {
+    height:100%;
+}
+
+.bubble-configure h3 {
+    float:left;
+    line-height:16px;
+    margin:0px;
+}
+
+.bubble-configure input[name=radius] {
+    display:block;
+    margin-right:20px;
+    float:right;
+}
+
+.bubble-configure hr {
+    border:0px;
+    padding-top:5px;
+    clear:both;
+}
+
+.bubble-configure input[type=submit] {
+    background:#933;
+    border:1px solid transparent;
+    color:#FFF;
+    font-weight:bold;
+    padding:5px;
+    width:100%;
+}
+
+.colours {
+    clear:both;
+    cursor:pointer;
+    margin:auto;
+    width:160px;
+}
+
+.colours span {
+    border-radius:5px;
+    display:block;
+    float:left;
+    height:10px;
+    margin:5px;
+    width:10px;
+}
+
+.colours .red { background:red; }
+.colours .purple { background:purple; }
+.colours .green { background:green; }
+.colours .blue { background:blue; }
+.colours .orange { background:orange; }
+.colours .pink { background:pink; }
+.colours .yellow { background:yellow; }
+.colours .grey { background:grey; }
+
+.statistics {
+    width:100%;
+}
+
+.statistics td {
+    width:50%;
+}
+
+.statistics td:first-child {
+    font-weight:bold;
+    text-align:right;
+}
