@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=6&wpt[0]=51.38093139999999:-2.3601740999999947&wpt[1]=51.3817104:-2.362503199999992&wpt[2]=51.3824762:-2.361259300000029&wpt[3]=51.3828887:-2.358285300000034&wpt[4]=51.3833054:-2.3571452999999565&wpt[5]=51.3833991:-2.3572527999999693&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p1</name>
+   <desc><![CDATA[Walk south on High St/A3039 towards The Corridor]]></desc>
+   </rtept>
+   <rtept lat="51.3817669" lon="-2.3590202000000318">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.3813952" lon="-2.3593717999999626">
+   <name> p3</name>
+   <desc><![CDATA[Turn left towards Stall St]]></desc>
+   </rtept>
+   <rtept lat="51.3812545" lon="-2.3602925999999798">
+   <name> p4</name>
+   <desc><![CDATA[Turn right towards Stall St]]></desc>
+   </rtept>
+   <rtept lat="51.38093139999999" lon="-2.3601740999999947">
+   <name> p5</name>
+   <desc><![CDATA[Turn left onto Stall St]]></desc>
+   </rtept>
+   <rtept lat="51.3807667" lon="-2.361185599999999">
+   <name> p6</name>
+   <desc><![CDATA[Turn right onto Bath St]]></desc>
+   </rtept>
+   <rtept lat="51.381434" lon="-2.3616137999999864">
+   <name> p7</name>
+   <desc><![CDATA[Turn right to stay on Bath St]]></desc>
+   </rtept>
+   <rtept lat="51.3819172" lon="-2.3624134000000367">
+   <name> p8</name>
+   <desc><![CDATA[Turn left onto Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3821861" lon="-2.3624376999999868">
+   <name> p9</name>
+   <desc><![CDATA[Continue onto Saw Close]]></desc>
+   </rtept>
+   <rtept lat="51.38282210000001" lon="-2.359289100000069">
+   <name> p10</name>
+   <desc><![CDATA[Turn right onto Upper Borough Walls]]></desc>
+   </rtept>
+   <rtept lat="51.382707" lon="-2.3590948999999455">
+   <name> p11</name>
+   <desc><![CDATA[Turn right onto Northgate St/A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3828887" lon="-2.358285300000034">
+   <name> p12</name>
+   <desc><![CDATA[Turn left onto Bridge St/A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3833054" lon="-2.3571452999999565">
+   <name> p13</name>
+   <desc><![CDATA[Continue onto Pulteney Bridge]]></desc>
+   </rtept>
+   <rtept lat="51.38503290000001" lon="-2.3579574999999977">
+   <name> p14</name>
+   <desc><![CDATA[Turn left onto Grove St]]></desc>
+   </rtept>
+   <rtept lat="51.384999" lon="-2.3573519999999917">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto Henrietta Pl]]></desc>
+   </rtept>
+   <rtept lat="51.38503290000001" lon="-2.3579574999999977">
+   <name> p16</name>
+   <desc><![CDATA[Make a U-turn]]></desc>
+   </rtept>
+   <rtept lat="51.3833054" lon="-2.3571452999999565">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Grove St]]></desc>
+   </rtept>
+   <rtept lat="51.3828887" lon="-2.358285300000034">
+   <name> p18</name>
+   <desc><![CDATA[Turn right onto Pulteney Bridge]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p19</name>
+   <desc><![CDATA[Continue straight onto Bridge St/A3039Continue to follow A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=3&wpt[0]=51.38258560000001:-2.366812999999979&wpt[1]=51.3851387:-2.3677278000000115&wpt[2]=51.3844652:-2.359556800000064&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.38232319999999" lon="-2.3605727000000343">
+   <name> p1</name>
+   <desc><![CDATA[Walk west on Northumberland Passage towards Union Passage]]></desc>
+   </rtept>
+   <rtept lat="51.3826129" lon="-2.360675600000036">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Union St]]></desc>
+   </rtept>
+   <rtept lat="51.3824762" lon="-2.361259300000029">
+   <name> p3</name>
+   <desc><![CDATA[Turn left onto Upper Borough Walls]]></desc>
+   </rtept>
+   <rtept lat="51.3826539" lon="-2.361372699999947">
+   <name> p4</name>
+   <desc><![CDATA[Turn right at Parsonage Ln]]></desc>
+   </rtept>
+   <rtept lat="51.38247579999999" lon="-2.3626021000000037">
+   <name> p5</name>
+   <desc><![CDATA[Turn left onto Trim St]]></desc>
+   </rtept>
+   <rtept lat="51.3821264" lon="-2.363955400000009">
+   <name> p6</name>
+   <desc><![CDATA[Continue onto Beauford Square]]></desc>
+   </rtept>
+   <rtept lat="51.3825332" lon="-2.364970900000003">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto Monmouth St]]></desc>
+   </rtept>
+   <rtept lat="51.3820935" lon="-2.365324200000032">
+   <name> p8</name>
+   <desc><![CDATA[Turn left onto Charles St/A367]]></desc>
+   </rtept>
+   <rtept lat="51.38294579999999" lon="-2.3681752999999617">
+   <name> p9</name>
+   <desc><![CDATA[Turn right onto New King St]]></desc>
+   </rtept>
+   <rtept lat="51.3831885" lon="-2.369593000000009">
+   <name> p10</name>
+   <desc><![CDATA[Continue onto Great Stanhope St]]></desc>
+   </rtept>
+   <rtept lat="51.3855411" lon="-2.3670845000000327">
+   <name> p11</name>
+   <desc><![CDATA[Turn right onto Nile St]]></desc>
+   </rtept>
+   <rtept lat="51.3842244" lon="-2.364537499999983">
+   <name> p12</name>
+   <desc><![CDATA[Turn right onto Royal Ave]]></desc>
+   </rtept>
+   <rtept lat="51.3843839" lon="-2.363409499999989">
+   <name> p13</name>
+   <desc><![CDATA[Turn left onto Queen's Parade Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3846192" lon="-2.3635097999999743">
+   <name> p14</name>
+   <desc><![CDATA[Turn left onto Gay St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3851887" lon="-2.3607838000000356">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3843969" lon="-2.3603562000000693">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.3844652" lon="-2.359556800000064">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Saracen St]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p18</name>
+   <desc><![CDATA[Turn right onto Walcot St/A3039Continue to follow A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

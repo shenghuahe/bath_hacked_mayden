@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=3&wpt[0]=51.3812909:-2.3650804999999764&wpt[1]=51.3834611:-2.3654877999999826&wpt[2]=51.3851887:-2.3607838000000356&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p1</name>
+   <desc><![CDATA[Walk south on High St/A3039 towards The Corridor]]></desc>
+   </rtept>
+   <rtept lat="51.3815356" lon="-2.360395599999947">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.3813775" lon="-2.3624459000000115">
+   <name> p3</name>
+   <desc><![CDATA[Continue onto Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3813109" lon="-2.3625289000000294">
+   <name> p4</name>
+   <desc><![CDATA[Turn left towards Monmouth St]]></desc>
+   </rtept>
+   <rtept lat="51.3813742" lon="-2.3626904000000195">
+   <name> p5</name>
+   <desc><![CDATA[Turn right onto Monmouth St]]></desc>
+   </rtept>
+   <rtept lat="51.38128260000001" lon="-2.362895299999991">
+   <name> p6</name>
+   <desc><![CDATA[Turn left towards Kingsmead Square]]></desc>
+   </rtept>
+   <rtept lat="51.38138" lon="-2.3632244000000355">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto Kingsmead Square]]></desc>
+   </rtept>
+   <rtept lat="51.3809791" lon="-2.364319499999965">
+   <name> p8</name>
+   <desc><![CDATA[Turn left to stay on Kingsmead Square]]></desc>
+   </rtept>
+   <rtept lat="51.3815414" lon="-2.365792199999987">
+   <name> p9</name>
+   <desc><![CDATA[Turn right onto James St W]]></desc>
+   </rtept>
+   <rtept lat="51.3825332" lon="-2.364970900000003">
+   <name> p10</name>
+   <desc><![CDATA[Turn right onto Charles St/A367]]></desc>
+   </rtept>
+   <rtept lat="51.3826834" lon="-2.365351099999998">
+   <name> p11</name>
+   <desc><![CDATA[Turn left onto St. Pauls Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3834611" lon="-2.3654877999999826">
+   <name> p12</name>
+   <desc><![CDATA[Turn right onto Palace Yard Mews]]></desc>
+   </rtept>
+   <rtept lat="51.3838468" lon="-2.363181700000041">
+   <name> p13</name>
+   <desc><![CDATA[Turn right onto Queen Square Pl/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3846192" lon="-2.3635097999999743">
+   <name> p14</name>
+   <desc><![CDATA[Turn left onto Gay St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3851887" lon="-2.3607838000000356">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3834163" lon="-2.3597399000000223">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.38282210000001" lon="-2.359289100000069">
+   <name> p17</name>
+   <desc><![CDATA[Continue onto Northgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p18</name>
+   <desc><![CDATA[Continue onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

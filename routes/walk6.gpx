@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=4&wpt[0]=51.3808495:-2.3623755999999503&wpt[1]=51.38238579999999:-2.3662136000000373&wpt[2]=51.3845896:-2.3646720000000414&wpt[3]=51.3848601:-2.360590699999989&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p1</name>
+   <desc><![CDATA[Walk south on High St/A3039 towards The Corridor]]></desc>
+   </rtept>
+   <rtept lat="51.3815356" lon="-2.360395599999947">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.381434" lon="-2.3616137999999864">
+   <name> p3</name>
+   <desc><![CDATA[Continue onto Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3809936" lon="-2.361577200000056">
+   <name> p4</name>
+   <desc><![CDATA[Turn left towards Westgate Buildings]]></desc>
+   </rtept>
+   <rtept lat="51.3808495" lon="-2.3623755999999503">
+   <name> p5</name>
+   <desc><![CDATA[Turn right towards Westgate Buildings]]></desc>
+   </rtept>
+   <rtept lat="51.3813109" lon="-2.3625289000000294">
+   <name> p6</name>
+   <desc><![CDATA[Turn right onto Westgate Buildings]]></desc>
+   </rtept>
+   <rtept lat="51.3825332" lon="-2.364970900000003">
+   <name> p7</name>
+   <desc><![CDATA[Westgate Buildings turns slightly left and becomes Monmouth St]]></desc>
+   </rtept>
+   <rtept lat="51.3820935" lon="-2.365324200000032">
+   <name> p8</name>
+   <desc><![CDATA[Turn left onto Charles St/A367]]></desc>
+   </rtept>
+   <rtept lat="51.38294579999999" lon="-2.3681752999999617">
+   <name> p9</name>
+   <desc><![CDATA[Turn right onto New King St]]></desc>
+   </rtept>
+   <rtept lat="51.383389" lon="-2.3679438000000346">
+   <name> p10</name>
+   <desc><![CDATA[Turn right onto Little Stanhope St]]></desc>
+   </rtept>
+   <rtept lat="51.3838468" lon="-2.363181700000041">
+   <name> p11</name>
+   <desc><![CDATA[Turn right onto Upper Bristol Rd/A4Continue to follow A4]]></desc>
+   </rtept>
+   <rtept lat="51.3843839" lon="-2.363409499999989">
+   <name> p12</name>
+   <desc><![CDATA[Turn left onto Gay St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3842244" lon="-2.364537499999983">
+   <name> p13</name>
+   <desc><![CDATA[Turn left onto Queen's Parade Pl]]></desc>
+   </rtept>
+   <rtept lat="51.385087" lon="-2.3651360999999724">
+   <name> p14</name>
+   <desc><![CDATA[Turn right onto Royal Ave]]></desc>
+   </rtept>
+   <rtept lat="51.3856753" lon="-2.3657702000000427">
+   <name> p15</name>
+   <desc><![CDATA[Slight right to stay on Royal Ave]]></desc>
+   </rtept>
+   <rtept lat="51.3843839" lon="-2.363409499999989">
+   <name> p16</name>
+   <desc><![CDATA[Sharp right towards Gay St/A4Take the stairs]]></desc>
+   </rtept>
+   <rtept lat="51.3846192" lon="-2.3635097999999743">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Gay St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3851887" lon="-2.3607838000000356">
+   <name> p18</name>
+   <desc><![CDATA[Turn right onto George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3834163" lon="-2.3597399000000223">
+   <name> p19</name>
+   <desc><![CDATA[Turn right onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.38282210000001" lon="-2.359289100000069">
+   <name> p20</name>
+   <desc><![CDATA[Continue onto Northgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p21</name>
+   <desc><![CDATA[Continue onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

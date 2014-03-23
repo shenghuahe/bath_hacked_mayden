@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=6&wpt[0]=51.3829716:-2.35682410000004&wpt[1]=51.3817007:-2.355918400000064&wpt[2]=51.3809856:-2.358588599999962&wpt[3]=51.383799:-2.3601461000000654&wpt[4]=51.383185:-2.362781899999959&wpt[5]=51.38195959999999:-2.361672999999996&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.3825353" lon="-2.3592012000000295">
+   <name> p1</name>
+   <desc><![CDATA[Walk north on High St/A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3828887" lon="-2.358285300000034">
+   <name> p2</name>
+   <desc><![CDATA[Slight right to stay on High St/A3039Continue to follow A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3831297" lon="-2.3576227999999446">
+   <name> p3</name>
+   <desc><![CDATA[Continue onto Pulteney Bridge]]></desc>
+   </rtept>
+   <rtept lat="51.3808583" lon="-2.3550290000000587">
+   <name> p4</name>
+   <desc><![CDATA[Turn right onto Spring Gardens RdTake the stairs]]></desc>
+   </rtept>
+   <rtept lat="51.3808891" lon="-2.3575362999999925">
+   <name> p5</name>
+   <desc><![CDATA[Turn right onto N Parade]]></desc>
+   </rtept>
+   <rtept lat="51.38103659999999" lon="-2.3577229999999645">
+   <name> p6</name>
+   <desc><![CDATA[Continue onto Terrace Walk]]></desc>
+   </rtept>
+   <rtept lat="51.3808882" lon="-2.35915829999999">
+   <name> p7</name>
+   <desc><![CDATA[Turn left onto York St]]></desc>
+   </rtept>
+   <rtept lat="51.3817669" lon="-2.3590202000000318">
+   <name> p8</name>
+   <desc><![CDATA[Turn right at Abbey St]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p9</name>
+   <desc><![CDATA[Turn right onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.3832707" lon="-2.3594821000000366">
+   <name> p10</name>
+   <desc><![CDATA[Turn left onto High St/A3039Continue to follow A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3834163" lon="-2.3597399000000223">
+   <name> p11</name>
+   <desc><![CDATA[Slight left onto Northgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3848092" lon="-2.3605622999999696">
+   <name> p12</name>
+   <desc><![CDATA[Continue onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.3845702" lon="-2.361818200000016">
+   <name> p13</name>
+   <desc><![CDATA[Turn left towards Milsom St]]></desc>
+   </rtept>
+   <rtept lat="51.383344" lon="-2.361260600000037">
+   <name> p14</name>
+   <desc><![CDATA[Turn left onto Milsom St]]></desc>
+   </rtept>
+   <rtept lat="51.3832221" lon="-2.3621037000000342">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto Quiet St]]></desc>
+   </rtept>
+   <rtept lat="51.3832815" lon="-2.362135099999932">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto Queen St]]></desc>
+   </rtept>
+   <rtept lat="51.38315249999999" lon="-2.362847800000054">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Wood St]]></desc>
+   </rtept>
+   <rtept lat="51.3821861" lon="-2.3624376999999868">
+   <name> p18</name>
+   <desc><![CDATA[Turn left onto Barton St]]></desc>
+   </rtept>
+   <rtept lat="51.3823599" lon="-2.361772999999971">
+   <name> p19</name>
+   <desc><![CDATA[Turn left onto Upper Borough Walls]]></desc>
+   </rtept>
+   <rtept lat="51.3814457" lon="-2.361489699999993">
+   <name> p20</name>
+   <desc><![CDATA[Turn right onto Bridewell Ln]]></desc>
+   </rtept>
+   <rtept lat="51.3815356" lon="-2.360395599999947">
+   <name> p21</name>
+   <desc><![CDATA[Turn left onto Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p22</name>
+   <desc><![CDATA[Continue onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p23</name>
+   <desc><![CDATA[Turn left onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

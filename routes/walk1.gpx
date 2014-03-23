@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=4&wpt[0]=51.3808338:-2.3560201000000234&wpt[1]=51.3785478:-2.3560953999999583&wpt[2]=51.37800559999999:-2.359745900000007&wpt[3]=51.3803984:-2.362115499999959&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.3814974" lon="-2.3575060000000576">
+   <name> p1</name>
+   <desc><![CDATA[Walk south on High St/A3039 towards The CorridorContinue to follow A3039]]></desc>
+   </rtept>
+   <rtept lat="51.380821" lon="-2.3571776999999656">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Pierrepont St/A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3808343" lon="-2.355975899999976">
+   <name> p3</name>
+   <desc><![CDATA[Turn left onto N Parade]]></desc>
+   </rtept>
+   <rtept lat="51.3799718" lon="-2.355943199999956">
+   <name> p4</name>
+   <desc><![CDATA[Turn right onto Duke St]]></desc>
+   </rtept>
+   <rtept lat="51.3799475" lon="-2.3570929999999635">
+   <name> p5</name>
+   <desc><![CDATA[Turn right onto S Parade]]></desc>
+   </rtept>
+   <rtept lat="51.3779121" lon="-2.3569916999999805">
+   <name> p6</name>
+   <desc><![CDATA[Turn left onto Pierrepont St/A3039Continue to follow A3039]]></desc>
+   </rtept>
+   <rtept lat="51.378028" lon="-2.3563837000000376">
+   <name> p7</name>
+   <desc><![CDATA[Turn left onto Railway Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3785266" lon="-2.356420999999955">
+   <name> p8</name>
+   <desc><![CDATA[Turn left towards Railway Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3785478" lon="-2.3560953999999583">
+   <name> p9</name>
+   <desc><![CDATA[Turn right towards Railway Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3785266" lon="-2.356420999999955">
+   <name> p10</name>
+   <desc><![CDATA[Make a U-turn]]></desc>
+   </rtept>
+   <rtept lat="51.378028" lon="-2.3563837000000376">
+   <name> p11</name>
+   <desc><![CDATA[Turn left towards Railway Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3779121" lon="-2.3569916999999805">
+   <name> p12</name>
+   <desc><![CDATA[Turn right onto Railway Pl]]></desc>
+   </rtept>
+   <rtept lat="51.37800559999999" lon="-2.359745900000007">
+   <name> p13</name>
+   <desc><![CDATA[Continue straight onto Dorchester St/A3039]]></desc>
+   </rtept>
+   <rtept lat="51.3800231" lon="-2.361731299999974">
+   <name> p14</name>
+   <desc><![CDATA[Turn right onto St. James's Parade/A367Continue to follow St. James's Parade]]></desc>
+   </rtept>
+   <rtept lat="51.3802258" lon="-2.3622314000000415">
+   <name> p15</name>
+   <desc><![CDATA[Continue onto James St W]]></desc>
+   </rtept>
+   <rtept lat="51.38030819999999" lon="-2.3621181999999408">
+   <name> p16</name>
+   <desc><![CDATA[Turn right to stay on James St W]]></desc>
+   </rtept>
+   <rtept lat="51.3808495" lon="-2.3623755999999503">
+   <name> p17</name>
+   <desc><![CDATA[James St W turns slightly left and becomes Westgate Buildings]]></desc>
+   </rtept>
+   <rtept lat="51.3809936" lon="-2.361577200000056">
+   <name> p18</name>
+   <desc><![CDATA[Turn right towards Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.381434" lon="-2.3616137999999864">
+   <name> p19</name>
+   <desc><![CDATA[Turn left towards Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3815356" lon="-2.360395599999947">
+   <name> p20</name>
+   <desc><![CDATA[Turn right onto Westgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3817962" lon="-2.358859499999994">
+   <name> p21</name>
+   <desc><![CDATA[Continue onto Cheap St]]></desc>
+   </rtept>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p22</name>
+   <desc><![CDATA[Turn left onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

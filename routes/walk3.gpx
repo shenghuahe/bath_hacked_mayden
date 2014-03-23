@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=3&wpt[0]=51.3823744:-2.363220100000035&wpt[1]=51.3870395:-2.363533700000062&wpt[2]=51.3861198:-2.3603299999999763&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.38232319999999" lon="-2.3605727000000343">
+   <name> p1</name>
+   <desc><![CDATA[Walk west on Northumberland Passage towards Union Passage]]></desc>
+   </rtept>
+   <rtept lat="51.3826129" lon="-2.360675600000036">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Union St]]></desc>
+   </rtept>
+   <rtept lat="51.3824762" lon="-2.361259300000029">
+   <name> p3</name>
+   <desc><![CDATA[Turn left onto Upper Borough Walls]]></desc>
+   </rtept>
+   <rtept lat="51.3826539" lon="-2.361372699999947">
+   <name> p4</name>
+   <desc><![CDATA[Turn right at Parsonage Ln]]></desc>
+   </rtept>
+   <rtept lat="51.38247579999999" lon="-2.3626021000000037">
+   <name> p5</name>
+   <desc><![CDATA[Turn left onto Trim St]]></desc>
+   </rtept>
+   <rtept lat="51.3823084" lon="-2.363744900000029">
+   <name> p6</name>
+   <desc><![CDATA[Continue onto Beauford Square]]></desc>
+   </rtept>
+   <rtept lat="51.3829777" lon="-2.363969699999984">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto Princes St]]></desc>
+   </rtept>
+   <rtept lat="51.3846192" lon="-2.3635097999999743">
+   <name> p8</name>
+   <desc><![CDATA[Turn right onto Queen Square/A4Continue to follow A4]]></desc>
+   </rtept>
+   <rtept lat="51.38564119999999" lon="-2.363926900000024">
+   <name> p9</name>
+   <desc><![CDATA[Continue onto Gay St]]></desc>
+   </rtept>
+   <rtept lat="51.3864588" lon="-2.363243900000043">
+   <name> p10</name>
+   <desc><![CDATA[At the roundabout, take the 1st exit onto Bennett St]]></desc>
+   </rtept>
+   <rtept lat="51.3870759" lon="-2.363571900000011">
+   <name> p11</name>
+   <desc><![CDATA[Turn left onto Circus Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3869865" lon="-2.3653064000000086">
+   <name> p12</name>
+   <desc><![CDATA[Circus Pl turns left and becomes Circus Mews]]></desc>
+   </rtept>
+   <rtept lat="51.3875865" lon="-2.3650529000000233">
+   <name> p13</name>
+   <desc><![CDATA[Turn right onto Rivers Street Mews]]></desc>
+   </rtept>
+   <rtept lat="51.3875396" lon="-2.362707799999953">
+   <name> p14</name>
+   <desc><![CDATA[Turn right onto Rivers St]]></desc>
+   </rtept>
+   <rtept lat="51.38737649999999" lon="-2.3614407999999685">
+   <name> p15</name>
+   <desc><![CDATA[Turn right onto Brunswick Pl]]></desc>
+   </rtept>
+   <rtept lat="51.3860489" lon="-2.3612057000000277">
+   <name> p16</name>
+   <desc><![CDATA[Turn right onto Lansdown Rd]]></desc>
+   </rtept>
+   <rtept lat="51.3859772" lon="-2.3602997000000414">
+   <name> p17</name>
+   <desc><![CDATA[Turn left onto Hay Hill]]></desc>
+   </rtept>
+   <rtept lat="51.3851887" lon="-2.3607838000000356">
+   <name> p18</name>
+   <desc><![CDATA[Slight right onto The Paragon/A4Continue to follow A4]]></desc>
+   </rtept>
+   <rtept lat="51.3834163" lon="-2.3597399000000223">
+   <name> p19</name>
+   <desc><![CDATA[Slight left onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.38282210000001" lon="-2.359289100000069">
+   <name> p20</name>
+   <desc><![CDATA[Continue onto Northgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p21</name>
+   <desc><![CDATA[Continue onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>

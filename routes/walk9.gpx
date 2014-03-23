@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--
+http://www.routeloops.com/?Base=51.3824216:-2.359147200000052&numWpts=3&wpt[0]=51.3838468:-2.363181700000041&wpt[1]=51.3854809:-2.3625904000000446&wpt[2]=51.38446930000001:-2.3603932999999415&tM=2&len=1&unitS=0
+-->
+<gpx version="1.0" creator="ExpertGPS 1.1 - http://www.topografix.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0" xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<rte>
+   <rtept lat="51.3823919" lon="-2.359166899999991">
+   <name> p0</name>
+   <desc><![CDATA[Start]]></desc>
+   </rtept>
+   <rtept lat="51.38232319999999" lon="-2.3605727000000343">
+   <name> p1</name>
+   <desc><![CDATA[Walk west on Northumberland Passage towards Union Passage]]></desc>
+   </rtept>
+   <rtept lat="51.3826129" lon="-2.360675600000036">
+   <name> p2</name>
+   <desc><![CDATA[Turn right onto Union St]]></desc>
+   </rtept>
+   <rtept lat="51.3821861" lon="-2.3624376999999868">
+   <name> p3</name>
+   <desc><![CDATA[Turn left onto Upper Borough Walls]]></desc>
+   </rtept>
+   <rtept lat="51.38315249999999" lon="-2.362847800000054">
+   <name> p4</name>
+   <desc><![CDATA[Turn right onto Barton St]]></desc>
+   </rtept>
+   <rtept lat="51.3831847" lon="-2.362982099999954">
+   <name> p5</name>
+   <desc><![CDATA[Turn left at Wood St]]></desc>
+   </rtept>
+   <rtept lat="51.3846192" lon="-2.3635097999999743">
+   <name> p6</name>
+   <desc><![CDATA[Turn right onto Queen Square/A4Continue to follow A4]]></desc>
+   </rtept>
+   <rtept lat="51.384714" lon="-2.362855599999989">
+   <name> p7</name>
+   <desc><![CDATA[Turn right onto George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3855894" lon="-2.3618309999999383">
+   <name> p8</name>
+   <desc><![CDATA[Turn left towards George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3849896" lon="-2.361519199999975">
+   <name> p9</name>
+   <desc><![CDATA[Turn right towards George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3851887" lon="-2.3607838000000356">
+   <name> p10</name>
+   <desc><![CDATA[Turn left onto George St/A4]]></desc>
+   </rtept>
+   <rtept lat="51.3834163" lon="-2.3597399000000223">
+   <name> p11</name>
+   <desc><![CDATA[Turn right onto Broad St]]></desc>
+   </rtept>
+   <rtept lat="51.38282210000001" lon="-2.359289100000069">
+   <name> p12</name>
+   <desc><![CDATA[Continue onto Northgate St]]></desc>
+   </rtept>
+   <rtept lat="51.3824192" lon="-2.3591734000000315">
+   <name> p13</name>
+   <desc><![CDATA[Continue onto High St/A3039]]></desc>
+   </rtept>
+</rte>
+</gpx>
