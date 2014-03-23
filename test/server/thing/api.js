@@ -70,3 +70,32 @@ describe('GET /api/paths/10/10/1500/1500 should return 2 entries', function() {
       });
   });
 });
+
+describe('GET /api/pois should return all POIs', function() {
+  
+  it('should respond with JSON array', function(done) {
+    request(app)
+      .get('/api/pois')
+      .expect(200)
+      .expect('Content-Type', /json/)
+      .end(function(err, res) {
+        console.log(res.body);
+        if (err) return done(err);
+        done();
+      });
+  });
+});
+
+describe('GET /api/import-gpx should import the data', function() {
+  
+  it('should respond with JSON array', function(done) {
+    request(app)
+      .get('/api/import-gpx')
+      .expect(200)
+      .expect('Content-Type', /json/)
+      .end(function(err, res) {
+        if (err) return done(err);
+        done();
+      });
+  });
+});
